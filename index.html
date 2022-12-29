@@ -1,15 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Queen Attack</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="asset/styles/style.css">
 </head>
-<body>
 
+<body>
+    <h1>
+        Queen Attack
+    </h1>
+    <details open>
+        <summary>Game Rule</summary>
+        <p> Queen can only attack a piece on same row, column or diagonal</p>
+        <p> Select any two squares and click "Check" to begin. You can deselect a square to select another</p>
+      </details>
+    <hr />
+    <div id='board'>
+        <button id='1' class='queen black'>
+            <i class="fas fa-chess-queen  inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen  inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+
+
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen white'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+        <button class='queen black'>
+            <i class="fas fa-chess-queen inactive"></i>
+        </button>
+    </div>
+
+    <div id='check-holder'>
+        <button id='check-btn' class='btn-disabled' disabled>Check</button>
+        <button id='reset-btn' class='btn-disabled' disabled>Reset</button>
+    </div>
 
     <script src="asset/scripts/script.js"></script>
 </body>
+
 </html>
