@@ -1,5 +1,5 @@
 body {
-    background-color: #808080;
+  background-color: #808080;
 }
 
 h1 {
@@ -11,9 +11,9 @@ hr {
 }
 
 details {
-    align-items: center;
-    text-align: center;
-    width: 100%;
+  align-items: center;
+  text-align: center;
+  width: 100%;
 }
 
 #board,
@@ -82,7 +82,7 @@ i {
   width: 80px;
   height: 30px;
   border: 2px double #6a4a2f;
-  background: #ffffff;
+  background: #fff;
   color: #6a4a2f;
   margin-bottom: 10px;
 }
