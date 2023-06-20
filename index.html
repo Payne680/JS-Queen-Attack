@@ -13,6 +13,8 @@
         <h2>Queen Attack</h2>
         <p><em>This helps determine if a queen can attack pieces on the same row, column, diagonal, given the position
                 of two queens on a chess board.</em></p>
+        <div><label id="small-margin"><strong><u>Instruction:</u></strong><i>Please scroll down to see if your Queen has
+                    been attacked!</i></label></div>
     </header>
     <section>
         <div class="container">
@@ -97,12 +99,18 @@
                 <button class="row" id="88"></button>
             </div>
         </div>
-        <button type="submit" id="btn">Attack</button>
+
+        <div class="btns">
+            <button type="submit" id="btn">Attack</button>
+            <button type="submit" id="btn-reload" onclick="window.location.reload()">Reset</button>
+        </div>
+
         <div class="results">
             <div id="result"></div>
             <div id="resulterror"></div>
         </div>
     </section>
+    <script src="./asset/scripts/script.js"></script>
 </body>
 
 </html>

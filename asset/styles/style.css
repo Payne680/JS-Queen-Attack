@@ -15,7 +15,7 @@ header {
   color: white;
   text-align: center;
   margin: 0 0 30px 0;
-  padding: 20px;
+  padding: 5px;
 }
 
 .container {
@@ -139,6 +139,20 @@ button#btn {
   position: relative;
 }
 
+button#btn-reload {
+  display: block;
+  cursor: pointer;
+  margin: auto;
+  font-size: 20px;
+  padding: 10px;
+  width: 120px;
+  background: #222;
+  color: white;
+  border-radius: 7px;
+  text-align: center;
+  position: relative;
+}
+
 #btn {
   margin: auto;
   margin-top: 25px;
@@ -146,6 +160,13 @@ button#btn {
 
 #btn:hover {
   background: #008000;
+}
+
+.btns {
+  display: flex;
+  margin: auto;
+  width: 30%;
+  align-items: center;
 }
 
 /* Result styling */
@@ -172,4 +193,8 @@ button#btn {
   margin-top: 15px;
   margin-bottom: 30px;
   font-style: italic;
+}
+
+::-webkit-scrollbar {
+  overflow: hidden;
 }
