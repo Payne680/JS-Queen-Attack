@@ -1,109 +1,175 @@
+/* Font family link */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+/* The entire body styling */
 body {
-  background-color: #808080;
-}
-
-h1 {
-  text-align: center;
-}
-
-hr {
-  width: 70%;
-}
-
-details {
-  align-items: center;
-  text-align: center;
-  width: 100%;
-}
-
-#board,
-#check-holder {
-  margin: 15px auto;
-  width: 400px;
-}
-
-#board {
-  border: 10px solid #000;
-  height: 400px;
-}
-
-button {
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  float: left;
+  font-family: "Open Sans", sans-serif;
+  background: #f3f3f3;
   padding: 0;
+  margin: 0;
+}
+
+/* The header styling */
+header {
+  background: #222;
+  color: white;
+  text-align: center;
+  margin: 0 0 30px 0;
+  padding: 20px;
+}
+
+.container {
+  text-align: center;
+  margin: 3em auto;
+}
+
+.container button {
+  height: 3rem;
+  width: 4rem;
   cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
 }
 
-.queen {
-  background: inherit;
-  border: 1px solid #46362d;
+.container div {
+  margin-top: 0;
 }
 
-.queen:focus,
-.queen:active,
-#reset-btn,
-#check-btn {
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.row1 button:nth-child(odd) {
+  background: white;
+  border: 5px solid white;
+}
+
+.row1 button:nth-child(even) {
+  background: #222;
+  border: 5px solid #222;
+}
+
+.row2 button:nth-child(odd) {
+  background: #222;
+  border: 5px solid #222;
+}
+
+.row2 button:nth-child(even) {
+  background: white;
+  border: 5px solid white;
+}
+
+.row3 button:nth-child(odd) {
+  background: white;
+  border: 5px solid white;
+}
+
+.row3 button:nth-child(even) {
+  background: #222;
+  border: 5px solid #222;
+}
+
+.row4 button:nth-child(odd) {
+  background: #222;
+  border: 5px solid #222;
+}
+
+.row4 button:nth-child(even) {
+  background: white;
+  border: 5px solid white;
+}
+
+.row5 button:nth-child(odd) {
+  background: white;
+  border: 5px solid white;
+}
+
+.row5 button:nth-child(even) {
+  background: #222;
+  border: 5px solid #222;
+}
+
+.row6 button:nth-child(odd) {
+  background: #222;
+  border: 5px solid #222;
+}
+
+.row6 button:nth-child(even) {
+  background: white;
+  border: 5px solid white;
+}
+
+.row8 button:nth-child(odd) {
+  background: #222;
+  border: 5px solid #222;
+}
+
+.row8 button:nth-child(even) {
+  background: white;
+  border: 5px solid white;
+}
+
+.row7 button:nth-child(odd) {
+  background: white;
+  border: 5px solid white;
+}
+
+.row7 button:nth-child(even) {
+  background: #222;
+}
+
+button#btn:focus {
   outline: none;
 }
 
-.inactive {
-  opacity: 0.3;
-}
-
-i {
-  background: inherit;
-  color: white;
+/* Button styling */
+button#btn {
+  display: block;
+  cursor: pointer;
+  margin: auto;
   font-size: 20px;
+  padding: 10px;
+  width: 120px;
+  background: #222;
+  color: white;
+  border-radius: 7px;
+  text-align: center;
+  position: relative;
 }
 
-.black {
-  background: #2d2c2c;
+#btn {
+  margin: auto;
+  margin-top: 25px;
 }
 
-.white {
-  background: #d6c390;
+#btn:hover {
+  background: #008000;
 }
 
-#check-btn {
-  float: left;
-  margin-left: 40px;
+/* Result styling */
+.results {
+  display: inline;
+}
+#result {
+  display: block;
+  font-size: 18px;
+  color: #008000;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-style: italic;
 }
 
-#reset-btn {
-  float: right;
-  margin-right: 40px;
-}
-
-#reset-btn,
-#check-btn {
-  border-radius: 15px;
-  width: 80px;
-  height: 30px;
-  border: 2px double #6a4a2f;
-  background-color: #a52a2a;
-  color: #fff;
-  margin-bottom: 10px;
-}
-
-.attack-path {
-  background: #ecf0f1;
-}
-
-.under-attack {
-  background: #e74c3c;
-}
-
-.safe {
-  background: #28b463;
-}
-
-.disabled,
-.btn-disabled {
-  cursor: not-allowed;
-}
-
-.btn-disabled {
-  opacity: 0.3;
+#resulterror {
+  display: block;
+  font-size: 18px;
+  color: red;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-style: italic;
 }
