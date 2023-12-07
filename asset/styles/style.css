@@ -1,0 +1,200 @@
+/* Font family link */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+/* The entire body styling */
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #f3f3f3;
+  padding: 0;
+  margin: 0;
+}
+
+/* The header styling */
+header {
+  background: #222;
+  color: white;
+  text-align: center;
+  margin: 0 0 30px 0;
+  padding: 5px;
+}
+
+.container {
+  text-align: center;
+  margin: 3em auto;
+}
+
+.container button {
+  height: 3rem;
+  width: 4rem;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+}
+
+.container div {
+  margin-top: 0;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.row1 button:nth-child(odd) {
+  background: white;
+  border: 5px solid white;
+}
+
+.row1 button:nth-child(even) {
+  background: #222;
+  border: 5px solid #222;
+}
+
+.row2 button:nth-child(odd) {
+  background: #222;
+  border: 5px solid #222;
+}
+
+.row2 button:nth-child(even) {
+  background: white;
+  border: 5px solid white;
+}
+
+.row3 button:nth-child(odd) {
+  background: white;
+  border: 5px solid white;
+}
+
+.row3 button:nth-child(even) {
+  background: #222;
+  border: 5px solid #222;
+}
+
+.row4 button:nth-child(odd) {
+  background: #222;
+  border: 5px solid #222;
+}
+
+.row4 button:nth-child(even) {
+  background: white;
+  border: 5px solid white;
+}
+
+.row5 button:nth-child(odd) {
+  background: white;
+  border: 5px solid white;
+}
+
+.row5 button:nth-child(even) {
+  background: #222;
+  border: 5px solid #222;
+}
+
+.row6 button:nth-child(odd) {
+  background: #222;
+  border: 5px solid #222;
+}
+
+.row6 button:nth-child(even) {
+  background: white;
+  border: 5px solid white;
+}
+
+.row8 button:nth-child(odd) {
+  background: #222;
+  border: 5px solid #222;
+}
+
+.row8 button:nth-child(even) {
+  background: white;
+  border: 5px solid white;
+}
+
+.row7 button:nth-child(odd) {
+  background: white;
+  border: 5px solid white;
+}
+
+.row7 button:nth-child(even) {
+  background: #222;
+}
+
+button#btn:focus {
+  outline: none;
+}
+
+/* Button styling */
+button#btn {
+  display: block;
+  cursor: pointer;
+  margin: auto;
+  font-size: 20px;
+  padding: 10px;
+  width: 120px;
+  background: #222;
+  color: white;
+  border-radius: 7px;
+  text-align: center;
+  position: relative;
+}
+
+button#btn-reload {
+  display: block;
+  cursor: pointer;
+  margin: auto;
+  font-size: 20px;
+  padding: 10px;
+  width: 120px;
+  background: #222;
+  color: white;
+  border-radius: 7px;
+  text-align: center;
+  position: relative;
+}
+
+#btn {
+  margin: auto;
+  margin-top: 25px;
+}
+
+#btn:hover {
+  background: #008000;
+}
+
+.btns {
+  display: flex;
+  margin: auto;
+  width: 30%;
+  align-items: center;
+}
+
+/* Result styling */
+.results {
+  display: inline;
+}
+#result {
+  display: block;
+  font-size: 18px;
+  color: #008000;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+#resulterror {
+  display: block;
+  font-size: 18px;
+  color: red;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+::-webkit-scrollbar {
+  overflow: hidden;
+}
